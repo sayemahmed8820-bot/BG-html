@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Advanced Selectors</title>
+    <style>
+        ol,ul,.special{
+            background-color: lightblue;
+        }
+        .red{
+            color: red;
+        }
+        .bold{
+            font-weight: bold;
+        }
+        article h3{
+            color: darkblue;
+        }
+        /*article p{
+            color: purple;
+        }*/
+        article > p {
+            color: purple;
+        }
+        article p:first-of-type{
+            font-weight: bold;
+        }
+        article{
+            background-color: lightgreen;
+        }
+    </style>
+</head>
+<body>
+    <h2>Advanced Selectors</h2>
+    <h2 class="special">Advanced Selectors</h2>
+    <h2>Advanced Selectors</h2>
+    <h2>Advanced Selectors</h2>
+    <p>This is a simple example of
+     a page with advanced selectors.</p>
+     <article>
+        <h3>This is a heading inside an article</h3>
+        <p>This is a paragraph inside an article.</p>
+        <p>This is a paragraph inside an article.</p>
+        <div>
+            <p>This is a paragraph inside
+             a div inside an article.</p>
+        </div>
+     </article>
+     <article>
+        <h3>This is a heading inside an article</h3>
+        <p>This is a paragraph inside an article.</p>
+        <p>This is a paragraph inside an article.</p>
+     </article>
+     <article>
+        <h3>This is a heading inside an article</h3>
+        <p>This is a paragraph inside an article.</p>
+        <p>This is a paragraph inside an article.</p>
+     </article>
+    <ol>
+        <li>Item 1</li>
+        <li class="red bold">Item 2</li>
+        <li>Item 3</li>
+    </ol>
+   <ul>
+       <li>Item 1</li>
+       <li>Item 2</li>
+       <li>Item 3</li>
+   </ul>
+    
+</body>
+</html>
