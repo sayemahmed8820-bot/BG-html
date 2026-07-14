@@ -1,0 +1,26 @@
+.box { background-color: aliceblue;
+    border: 1px solid #ccc;
+    padding: 20px;
+    margin: 20px;
+    display: block;
+    box-shadow: 10px 10px 5px grey;
+}
+#header {
+    color: rgb(36, 85, 101);
+    background-image: url('football\ copy.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: top center;
+    font-weight: bold;
+}
+#header:hover {
+    color: blue;
+    font-weight: bold;
+}
+#header {
+   text-align: center;
+   padding-top: 200px;
+}
+#header {
+    background-color: lightgray;
+}
